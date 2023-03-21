@@ -4,8 +4,8 @@ from parsingworkzilla import parsing
 from aiogram.dispatcher.filters import Text
 import asyncio
 
-token = '6050222744:AAGXHZFi1igkAa3jY-gUdzCR83FmofOiwN4'
-user_id = '1581750481'
+token = 'TOKEN'
+user_id = 'USER_ID'
 
 
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
