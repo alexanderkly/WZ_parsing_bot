@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 count = 0
 
 def cook_cookies():
-    login = 'tn.srgv@yandex.com'
+    login = 'LOGIN'
     logining = driver.find_element(By.ID, 'email')
     logining.send_keys(login)
     logining.send_keys(Keys.ENTER)
